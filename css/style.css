@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia,Cambria,Times New Roman,Times,serif;
+}
+header {
+    background: linear-gradient(#000, #1F2836);
+    padding: 12px 0 500px;
+}
+.navbar-brand {
+    max-width: 120px;
+}
+.nav-link {
+    font-size: 16px;
+color: #fcfcfc !important;
+}
+.header-right {
+    margin-left: 40px;
+}
+.header-right a {
+    color: #fcfcfc;
+}
+.header-right a:hover {
+    color: #d3d3d3;
+}
+p,
+ul li {
+    font-family: Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.btn-warning {
+    background: #EAB308 !important;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #5B96B6;
+}
+.admin-desc a{
+    text-transform: uppercase;
+}
+.admin-bio hr{
+    color: #5B96B6;
+    margin-top: 16px;
+    height: 3px;
+}
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d3d3d3;
+}
+.btn-post {
+    background: #4267B2;
+    border-radius: 0;
+    color: #fff;
+    margin: 8px;
+}
+.article-title {
+    padding: 80px 0;
+}
+.article-title h3 {
+    font-family: Georgia,Cambria,Times New Roman,Times,serif;
+    color: #849097;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: Georgia,Cambria,Times New Roman,Times,serif;
+    font-size: 38px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h3 a,
+h3 {
+    font-size: 26px;
+    line-height: 1.5;
+}
+.weight-700 {
+    font-weight: 700;
+}
+.admin-profile {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.admin-desc h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #c2c2c2;
+    margin: 0;
+}
+.admin-desc h4 span {
+    font-size: 16px;
+    color: #525252;
+}
+.article-update {
+    font-family: Georgia,Cambria,Times New Roman,Times,serif;
+    color: #8698A7;
+    margin-bottom: 10px;
+}
+ .article-desc img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+.btn-block {
+    width: 100%;
+    padding: 16px 32px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.btn-block:hover {
+    color: #fff;
+}
+#article {
+    margin-top: -500px;
+    margin-bottom: 20px;
+}
+h2 a {
+    font-size: 32px;
+}
+blockquote {
+    font-size: 20px;
+    font-style: italic;
+    color: #525252;
+    padding: 0 20px;
+    text-align: center;
+}
+h4 {
+    font-size: 26px;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-bottom: 18px;
+    margin-top: 30px;
+}
+.article-report {
+    padding-left: 40px;
+    position: relative;
+}
+.article-report::before {
+    content: "";
+    width: 8px;
+    height: 98%;
+    background: #EFEFEF;
+    position: absolute;
+    left: 15px;
+    top: 1%;
+}
+h4 a {
+    font-size: 28px;
+}
+.step {
+    padding: 18px;
+    background: #EFEFEF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+/* coment starts */
+.comment  {
+    font-family: 'Work Sans', sans-serif;
+    padding: 40px;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+}
+/* .comment-title {
+    color: #4267B2;
+    margin-bottom: 20px;
+}
+.comment-profile img {
+    border-radius: 50%;
+}
+.comment-desc {
+    padding: 12px;
+    background: #F3F4F6;
+    border-radius: 8px;
+}
+.comment-name {
+    color: #4267B2;
+}
+.comment-desc p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+.list-inline-item a {
+    font-size: 14px !important;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.comment .btn-block {
+    font-weight: 400 !important;
+}
+
+.user img {
+    margin: 0;
+}
+.comment-form .comment-desc {
+    padding: 0;
+    border-radius: 0 !important;
+}
+.comment img {
+    max-width: 80px;
+    margin: 0;
+}
+.comment p {
+    font-weight: 400;
+    margin: 0;
+} */
+.comment_box {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 3px;
+    color: rgb(75, 79, 86);
+    padding: 50px;
+}
+
+.comment_head p {
+    padding: 10px 0px;
+    margin: 0px;
+    font-size: 14px;
+    color: rgb(75, 79, 86);
+}
+
+.comment_head hr {
+    color: #2d2e2f;
+    margin-bottom: 24px;
+}
+
+.comments ul{
+    padding: 0;
+    margin: 0;
+}
+
+.users {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.user_image {}
+
+.user_image a {}
+
+.user_image a img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 80px;
+}
+
+.user_details {
+    padding-left: 15px;
+}
+
+.user_details h4 {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(54, 88, 153);
+    font-weight: 700;
+}
+
+.user_details p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 4px 0px;
+    color: rgb(75, 79, 86);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.elements {}
+
+.elements ul {
+    display: flex;
+    align-items: center;
+}
+
+.elements ul li {
+    list-style: none;
+    padding-right: 10px;
+    font-size: 10px;
+    margin: 0;
+}
+
+.elements ul li a {
+    font-size: 12px;
+    color: rgb(66, 103, 178);
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.elements ul li a img {
+    width: 13px;
+    padding-right: 3px;
+    margin: 0;
+}
+
+.elements ul li span {
+    color: rgb(144, 148, 156);
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+
+.dot::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50px;
+    background-color: rgb(75, 79, 86);
+    transform: translate(-50%, -50%);
+}
+
+.load_more {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.load_more a {
+    background: rgb(53, 120, 229);
+    border: none;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 24px;
+    padding: 12px;
+    text-shadow: none;
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 2px;
+    display: block;
+}
